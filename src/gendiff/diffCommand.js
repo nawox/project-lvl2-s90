@@ -1,7 +1,7 @@
-import command from 'commander';
+import program from 'commander';
 
 export default () => {
-  command
+  program
     .version('0.0.1')
     .description('Compares two configuration files and shows a difference')
     .arguments('<first_config> <second_config>')
